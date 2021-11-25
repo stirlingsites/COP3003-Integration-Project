@@ -11,3 +11,9 @@ Problem: An animal shelter, which holds only dogs and cats, operates on a strict
 #
 Screenshot of output after milestone 1:
 ![screenshot](https://github.com/stirlingsites/COP3003-Integration-Project/blob/main/ShelterProg.jpg?raw=true)
+#
+Screenshot of output after milestone 2:
+![sceenshot](https://github.com/stirlingsites/COP3003-Integration-Project/blob/main/Screenshot%202021-11-25%20142715.jpg)
+#
+In milestone 2 I added dynamic dispatch, used private memebers in classes, utilized iterators and aggegates, 
+
