@@ -18,24 +18,24 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Animals.cpp">
+    <ClCompile Include="animals.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Dogs.cpp">
+    <ClCompile Include="dogs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Cats.cpp">
+    <ClCompile Include="cats.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Animals.h">
+    <ClInclude Include="animals.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Dogs.h">
+    <ClInclude Include="dogs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Cats.h">
+    <ClInclude Include="cats.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

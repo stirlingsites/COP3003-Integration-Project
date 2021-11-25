@@ -1,9 +1,9 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "Animals.h"
-#include "Cats.h"
-#include "Dogs.h"
+#include "animals.h"
+#include "cats.h"
+#include "dogs.h"
 using namespace std;
 
 // COP 3003 Integration Project
@@ -20,13 +20,19 @@ using namespace std;
 // The difference between object oriented programming(OOP) and procedural/fucntioanl programming is that
 // OOP is based on a real time application whereas the entire focus of procedural programming is on data and functions.
 
+// The relationship between object-oriented inheritance and subtyping:
+// Subtyping refers to compatibility of interfaces, whereas inheritance refers to the reuse of implementations.
+// Inheritance and subtyping go hand in hand when organzing abstract dataypes in a heirachy class.
+
 int main() {
 	Animals animalsInShelter(0, "");
 	Cats catsInShelter(0);
 	Dogs dogsInShelter(0);
 	cout << "Total number of animals in " << animalsInShelter.getNameOfShelter() << " shelter is " << animalsInShelter.getNumOfAnimals() << endl;
 	cout << "Dogs in " << animalsInShelter.getNameOfShelter() << " shelter is " << dogsInShelter.getNumOfDogs() << endl;
+	dogsInShelter.compareDogs(dogsInShelter.getNumOfDogs(), animalsInShelter.getNumOfAnimals());
 	cout << "Cats in " << animalsInShelter.getNameOfShelter() << " shelter is " << catsInShelter.getNumOfCats() << endl;
+	catsInShelter.compareCats(catsInShelter.getNumOfCats(), animalsInShelter.getNumOfAnimals());
 	dogsInShelter.addDogDays();
 	catsInShelter.addCatDays();
 	catsInShelter.findOldestCat();
