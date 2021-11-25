@@ -15,5 +15,5 @@ Screenshot of output after milestone 1:
 Screenshot of output after milestone 2:
 ![sceenshot](https://github.com/stirlingsites/COP3003-Integration-Project/blob/main/Screenshot%202021-11-25%20142715.jpg)
 #
-In milestone 2 I added dynamic dispatch, used private memebers in classes, utilized iterators and aggegates, 
+In milestone 2 I added dynamic dispatch, used private memebers in classes, utilized iterators and aggregates, and object-oreinted inheritance. I also fixed some issues in milestone two including printing strings and no allowing more cats or dogs than animals.
 
