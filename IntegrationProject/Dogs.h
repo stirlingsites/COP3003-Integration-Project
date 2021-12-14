@@ -10,10 +10,12 @@ private:
 	std::vector<int> dogsInShelter;
 public:
 	Dogs(int dogs);
-	void setDogs(int dogs);
+	//dynamic dispatch
+	void setAnimals(int dogs);
 	void addDogDays();
 	void findOldestDog();
 	int getNumOfDogs() { return numOfDogs; }
 	int getOldestDog() { return oldestDog; }
+	void compareDogs(int numDogs, int numAnimals);
 };
 

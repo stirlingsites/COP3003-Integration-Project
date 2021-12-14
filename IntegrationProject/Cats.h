@@ -1,5 +1,5 @@
 #pragma once
-#include "Animals.h"
+#include "animals.h"
 #include <iostream>
 #include <vector>
 
@@ -15,10 +15,12 @@ private:
 	std::vector<int> catsInShelter;
 public:
 	Cats(int cats);
-	void setCats(int cats);
+	//dynamic dispatch
+	void setAnimals(int cats);
 	void addCatDays();
 	void findOldestCat();
 	int getNumOfCats() { return numOfCats; }
 	int getOldestCat() { return oldestCat; }
+	void compareCats(int numCats, int numAnimals);
 };
 

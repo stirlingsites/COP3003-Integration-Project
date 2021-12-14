@@ -6,14 +6,21 @@
 Animals::Animals() {}
 Animals::Animals(int animals, std::string name)
 {
-    setAnimals(animals, name);
+    setAnimals(animals);
+    setName(name);
 }
-void Animals::setAnimals(int animals, std::string name)
+void Animals::setAnimals(int animals)
 {
     std::cout << "How many animals are in the shelter?" << std::endl;
     std::cin >> animals;
     totalNumOfAnimals = animals;
-    std::cout << "What is the name of the shelter?" << std::endl;
-    std::cin >> name;
-    nameOfShelter = name;
 }
+void Animals::setName(std::string name)
+{
+    std::string shelterName;
+    std::cout << "What is the name of the shelter?" << std::endl;
+    std::cin.ignore();
+    getline(std::cin, shelterName);
+    nameOfShelter = shelterName;
+}
+
