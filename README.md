@@ -25,3 +25,4 @@ Here is a link to my doxygen website: file:///C:/Users/14252/OneDrive%20-%20Flor
 Below are the class diagrams produced by my doxygen comments:
 ![screenshot](https://github.com/stirlingsites/COP3003-Integration-Project/blob/main/doxyanimals.jpg)
 ![screenshot](https://github.com/stirlingsites/COP3003-Integration-Project/blob/main/doxycats.jpg)
+![screenshot](https://github.com/stirlingsites/COP3003-Integration-Project/blob/main/doxydogs.jpg)
