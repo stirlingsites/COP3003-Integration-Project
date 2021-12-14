@@ -22,4 +22,5 @@ For the final submission I improve the quality, secuirty, style, structure, comm
 I then went on to improve my comments and documentation by adding doxygen comments to my project at the start of every file, class, and function.
 Here is a link to my doxygen website: file:///C:/Users/14252/OneDrive%20-%20Florida%20Gulf%20Coast%20University/COP%203003/IntegrationProject/docs/html/index.html
 Below are the class diagrams produced by my doxygen comments:
+![screenshot](https://github.com/stirlingsites/COP3003-Integration-Project/blob/main/doxyanimals.jpg)
 
