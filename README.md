@@ -26,3 +26,6 @@ Below are the class diagrams produced by my doxygen comments:
 ![screenshot](https://github.com/stirlingsites/COP3003-Integration-Project/blob/main/doxyanimals.jpg)
 ![screenshot](https://github.com/stirlingsites/COP3003-Integration-Project/blob/main/doxycats.jpg)
 ![screenshot](https://github.com/stirlingsites/COP3003-Integration-Project/blob/main/doxydogs.jpg)
+#
+Final screenshot of project output:
+![screenshot](https://github.com/stirlingsites/COP3003-Integration-Project/blob/main/FinalSS.jpg)
