@@ -19,3 +19,7 @@ In milestone 2 I added dynamic dispatch, used private memebers in classes, utili
 #
 For the final submission I improve the quality, secuirty, style, structure, comments, and documentation of my project. To start I used clang-tidy in visual studios. When I started I had 39 warnings on my project. After working to reduce that number derastically I ended with 7 warnings. Here is a screenshot of my warning list at the end:
 ![screenshot](https://github.com/stirlingsites/COP3003-Integration-Project/blob/main/warninglist.jpg)
+I then went on to improve my comments and documentation by adding doxygen comments to my project at the start of every file, class, and function.
+Here is a link to my doxygen website: file:///C:/Users/14252/OneDrive%20-%20Florida%20Gulf%20Coast%20University/COP%203003/IntegrationProject/docs/html/index.html
+Below are the class diagrams produced by my doxygen comments:
+
