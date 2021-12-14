@@ -16,4 +16,6 @@ Screenshot of output after milestone 2:
 ![sceenshot](https://github.com/stirlingsites/COP3003-Integration-Project/blob/main/Screenshot%202021-11-25%20142715.jpg)
 #
 In milestone 2 I added dynamic dispatch, used private memebers in classes, utilized iterators and aggregates, and object-oreinted inheritance. I also fixed some issues in milestone two including printing strings and no allowing more cats or dogs than animals. Overall, I changed my code to make it more reusable and easier to understand.
-
+#
+For the final submission I improve the quality, secuirty, style, structure, comments, and documentation of my project. To start I used clang-tidy in visual studios. When I started I had 39 warnings on my project. After working to reduce that number derastically I ended with 7 warnings. Here is a screenshot of my warning list at the end:
+![screenshot](https://github.com/stirlingsites/COP3003-Integration-Project/blob/main/warninglist.jpg)
